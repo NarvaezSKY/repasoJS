@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>el tal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="formulario">
+    <h1>Datos Motero</h1>
+    <!-- motero -->
+    <input type="text" id="Nombre" placeholder="Nombre..." required>
+    <br>
+    <input type="text" id="Apellido" placeholder="Apellido..." required>
+    <br>
+    <input type="number" id="Cedula" placeholder="Cedula..." required>
+    <br>
+    <input type="email" id="Correo" placeholder="Correo..." required>
+    <br>
+    <label for="Fecha">Fecha de Nacimiento:</label>  <br>
+    <input type="date" id="Fecha" required>
+
+    <h1>Datos Motos</h1>
+    <!-- motoposada -->
+    <input type="text" id="Placa" placeholder="Placa..." required>
+    <br>
+    <input type="text" id="Cilindraje" placeholder="Cilindraje..." required>
+    <br>
+    <p></p>
+
+    <button type="submit" class="boton">Ver Resumen</button>
+</form>
+
+    <p id="texto">Esperando Datos...</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
